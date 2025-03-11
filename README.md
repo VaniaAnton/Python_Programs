@@ -1,3 +1,3 @@
-# Python_Programs
+# Python's projects
 
-Currency Exchange program with GUI
+1. Currency Exchange program with GUI
