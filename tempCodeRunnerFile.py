@@ -1,2 +1,16 @@
-    # if seconds >=3600:
-    #     hours, secs = divmod(seconds, 3600)
+import tkinter as tk
+root = tk.Tk()
+root.title("Calculator")
+root.geometry("600x700")
+button1=tk.Button(root, text="button1")
+button1.grid(row=1,column=0)
+button2=tk.Button(root, text="button1")
+button2.grid(row=2,column=2)
+button3=tk.Button(root, text="button1")
+button3.grid(row=3,column=3)
+button4=tk.Button(root, text="button1")
+button4.grid(row=5,column=4)
+button5=tk.Button(root, text="button1")
+button5.grid(row=5,column=5)
+
+root.mainloop()
